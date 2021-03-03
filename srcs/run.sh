@@ -6,7 +6,7 @@
 #    By: parkjaekwang <marvin@42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/03/01 17:02:09 by parkjaekw         #+#    #+#              #
-#    Updated: 2021/03/03 21:27:28 by parkjaekw        ###   ########.fr        #
+#    Updated: 2021/03/03 21:31:30 by jaekpark         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -38,7 +38,6 @@ echo "CREATE USER IF NOT EXISTS 'jaekpark'@'localhost' IDENTIFIED BY 'jaekpark';
 echo "GRANT ALL PRIVILEGES ON wordpress.* TO 'jaekpark'@'localhost' WITH GRANT OPTION;" | mysql -u root --skip-password
 
 # install phpmyadmin
-
 wget https://files.phpmyadmin.net/phpMyAdmin/5.0.2/phpMyAdmin-5.0.2-all-languages.tar.gz
 tar -xvf phpMyAdmin-5.0.2-all-languages.tar.gz
 mv phpMyAdmin-5.0.2-all-languages /var/www/html/phpmyadmin
