@@ -6,7 +6,7 @@
 #    By: parkjaekwang <marvin@42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/03/01 17:02:22 by parkjaekw         #+#    #+#              #
-#    Updated: 2021/03/03 15:57:45 by parkjaekw        ###   ########.fr        #
+#    Updated: 2021/03/04 12:07:04 by parkjaekw        ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -24,7 +24,7 @@ RUN apt-get -y install php7.3-fpm php-mysql php-mbstring
 # Install mysql
 RUN apt-get -y install mariadb-server
 
-# Install ssl
+# Install openssl
 RUN apt-get -y install openssl
 
 # Install utils
